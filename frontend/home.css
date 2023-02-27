@@ -1,0 +1,62 @@
+.navbar{
+    background: none;
+    padding-bottom: 20px;
+}
+
+li{
+    margin-top: 13px;
+    position: relative;
+     margin-left: 25px;
+    list-style: none;
+    flex-direction: row;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    transition: 0.3s;
+}
+
+.navbar ul{
+position: relative;
+margin-left: 30%;
+    display: flex;
+    justify-content: space-around;
+    width:30%;
+}
+
+body{
+    background: url('background 1.jpg');
+    background-size:1020px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+
+foot{
+    background: black;
+    color: gold;
+    padding-bottom: 100px;
+}
+foot img{
+    width: 70px;
+    margin-top: 3%;
+    margin-left: 7%;
+}
+foot p{
+    margin-left: 7%;
+}
+foot .pe{
+    margin-top: 3%;
+}
+foot .img-txt a{
+    color: gold;
+    position: absolute;
+    left: 65%;
+    text-decoration: none;
+}
+foot .img-txt a i{
+    position: absolute;
+    left: 40%;
+}
