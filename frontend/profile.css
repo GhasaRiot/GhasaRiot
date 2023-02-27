@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-image: url(background.png);
+    }
+    
+.navbar{
+    background: none;
+    padding-bottom: 20px;
+}
+.navbar li{
+margin-top: 13px;
+    position: relative;
+     margin-left: 25px;
+    list-style: none;
+    flex-direction: row;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    transition: 0.3s;
+}
+.navbar a:hover{
+    color: white;
+    transition: 0.3s;
+}
+.navbar img{
+    margin-left: 50px;
+    width: 120px;
+    position: absolute;
+}
+.navbar ul{
+position: relative;
+margin-left: 65%;
+    display: flex;
+    justify-content: space-around;
+    width:30%;
+}
